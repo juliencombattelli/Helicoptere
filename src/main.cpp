@@ -1,7 +1,5 @@
 #include "mbed.h"
 
-DigitalOut myled(LED1);
-
 /*
  * Tx1 PA9 Rx1 PA10
  * Tx2 PA2 Rx2 PA3
@@ -13,7 +11,9 @@ DigitalOut myled(LED1);
  * MOSI PB5 MISO PB4 SCLK PB3 CS PA4
  */
 
-Serial bt(PA_9, PA_10);
+DigitalOut myled(LED1);
+
+Serial bt(PA_9, PA_10, 115200);
 Serial pc(USBTX, USBRX);
 PwmOut mot1(PA_8);
 PwmOut mot2(PA_11);
@@ -25,20 +25,8 @@ I2C i2c(PB_7,PB_6);
 
 int main()
 {
-	pc.printf("Test start\r\n");
-	bt.baud(115200);
+	pc.puts("Test start\r\n");
 	bt.puts("hello\r\n");
-
-	mot1.period_ms(20);
-	mot2.period_ms(20);
-
-
-	mot1 = 1;
-	mot2 = 1;
-
-
-	mot1 = 0;
-	mot2 = 0;
 
     while(1)
     {
