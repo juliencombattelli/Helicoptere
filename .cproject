@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399" name="Debug" parent="fr.ac6.managedbuild.config.gnu.cross.exe.debug" postannouncebuildStep="Generating binary and Printing size information:" postbuildStep="arm-none-eabi-size &quot;${BuildArtifactFileName}&quot;">
+					<folderInfo id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399." name="/" resourcePath="">
+						<toolChain id="fr.ac6.managedbuild.toolchain.gnu.cross.exe.debug.92177902" name="Ac6 STM32 MCU GCC" nonInternalBuilderId="fr.ac6.managedbuild.builder.gnu.cross" superClass="fr.ac6.managedbuild.toolchain.gnu.cross.exe.debug">
+							<option id="fr.ac6.managedbuild.option.gnu.cross.mcu.659685235" name="Mcu" superClass="fr.ac6.managedbuild.option.gnu.cross.mcu" value="STM32F303K8Tx" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.board.1590048790" name="Board" superClass="fr.ac6.managedbuild.option.gnu.cross.board" value="NUCLEO-F303K8" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.fpu.32952124" name="Floating point hardware" superClass="fr.ac6.managedbuild.option.gnu.cross.fpu" value="fr.ac6.managedbuild.option.gnu.cross.fpu.fpv4-sp-d16" valueType="enumerated"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.floatabi.942940069" name="Floating-point ABI" superClass="fr.ac6.managedbuild.option.gnu.cross.floatabi" value="fr.ac6.managedbuild.option.gnu.cross.floatabi.hard" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.managedbuild.targetPlatform.gnu.cross.1837692593" isAbstract="false" osList="all" superClass="fr.ac6.managedbuild.targetPlatform.gnu.cross"/>
+							<builder autoBuildTarget="all" buildPath="${workspace_loc:/Nucleo_blink_led_F303}/Debug" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.1927405949" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" parallelBuildOn="false" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.886002357" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler">
+								<option id="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.1012134700" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.c.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.544039455" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.319666577" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TOOLCHAIN_GCC_ARM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/hal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/platform&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1405228458" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="__MBED__=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_I2CSLAVE=1"/>
+									<listOptionValue builtIn="false" value="TARGET_LIKE_MBED"/>
+									<listOptionValue builtIn="false" value="DEVICE_RTC_LSI=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTINOUT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_RTOS_M4_M7"/>
+									<listOptionValue builtIn="false" value="DEVICE_RTC=1"/>
+									<listOptionValue builtIn="false" value="TARGET_STM32F303K8"/>
+									<listOptionValue builtIn="false" value="__CMSIS_RTOS"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_GCC"/>
+									<listOptionValue builtIn="false" value="DEVICE_STDIO_MESSAGES=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_CAN=1"/>
+									<listOptionValue builtIn="false" value="TARGET_CORTEX_M"/>
+									<listOptionValue builtIn="false" value="TARGET_LIKE_CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="DEVICE_ANALOGOUT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_M4"/>
+									<listOptionValue builtIn="false" value="TARGET_UVISOR_UNSUPPORTED"/>
+									<listOptionValue builtIn="false" value="DEVICE_SERIAL=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_INTERRUPTIN=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_I2C=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTOUT=1"/>
+									<listOptionValue builtIn="false" value="__CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="__MBED_CMSIS_RTOS_CM"/>
+									<listOptionValue builtIn="false" value="__FPU_PRESENT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_FF_ARDUINO"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTIN=1"/>
+									<listOptionValue builtIn="false" value="TARGET_RELEASE"/>
+									<listOptionValue builtIn="false" value="TARGET_STM"/>
+									<listOptionValue builtIn="false" value="MBED_BUILD_TIMESTAMP=1484828603.7"/>
+									<listOptionValue builtIn="false" value="TARGET_NUCLEO_F303K8"/>
+									<listOptionValue builtIn="false" value="DEVICE_SLEEP=1"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_GCC_ARM"/>
+									<listOptionValue builtIn="false" value="DEVICE_SPI=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_SPISLAVE=1"/>
+									<listOptionValue builtIn="false" value="TARGET_STM32F3"/>
+									<listOptionValue builtIn="false" value="DEVICE_ANALOGIN=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PWMOUT=1"/>
+									<listOptionValue builtIn="false" value="ARM_MATH_CM4"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_object"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.1761027" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.c99" valueType="enumerated"/>
+								<option id="fr.ac6.managedbuid.gnu.c.compiler.option.misc.other.1681387613" name="Other flags" superClass="fr.ac6.managedbuid.gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-fmessage-length=0 --specs=nano.specs  --specs=nosys.specs -fno-builtin -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer" valueType="string"/>
+								<option id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata.821521169" name="Place the data in their own section (-fdata-sections)" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.637077495" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.1948998014" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.421366436" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.1585574199" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.cpp.optimization.level.size" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.618006016" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.865601136" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TOOLCHAIN_GCC_ARM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/hal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/platform&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.dialect.std.1360658337" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++98" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1835508827" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__MBED__=1"/>
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="DEVICE_I2CSLAVE=1"/>
+									<listOptionValue builtIn="false" value="TARGET_LIKE_MBED"/>
+									<listOptionValue builtIn="false" value="DEVICE_RTC_LSI=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTINOUT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_RTOS_M4_M7"/>
+									<listOptionValue builtIn="false" value="DEVICE_RTC=1"/>
+									<listOptionValue builtIn="false" value="TARGET_STM32F303K8"/>
+									<listOptionValue builtIn="false" value="__CMSIS_RTOS"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_GCC"/>
+									<listOptionValue builtIn="false" value="DEVICE_STDIO_MESSAGES=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_CAN=1"/>
+									<listOptionValue builtIn="false" value="TARGET_CORTEX_M"/>
+									<listOptionValue builtIn="false" value="TARGET_LIKE_CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="DEVICE_ANALOGOUT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_M4"/>
+									<listOptionValue builtIn="false" value="TARGET_UVISOR_UNSUPPORTED"/>
+									<listOptionValue builtIn="false" value="DEVICE_SERIAL=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_INTERRUPTIN=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_I2C=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTOUT=1"/>
+									<listOptionValue builtIn="false" value="__CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="__MBED_CMSIS_RTOS_CM"/>
+									<listOptionValue builtIn="false" value="__FPU_PRESENT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_FF_ARDUINO"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTIN=1"/>
+									<listOptionValue builtIn="false" value="TARGET_RELEASE"/>
+									<listOptionValue builtIn="false" value="TARGET_STM"/>
+									<listOptionValue builtIn="false" value="MBED_BUILD_TIMESTAMP=1484828603.7"/>
+									<listOptionValue builtIn="false" value="TARGET_NUCLEO_F303K8"/>
+									<listOptionValue builtIn="false" value="DEVICE_SLEEP=1"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_GCC_ARM"/>
+									<listOptionValue builtIn="false" value="DEVICE_SPI=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_SPISLAVE=1"/>
+									<listOptionValue builtIn="false" value="TARGET_STM32F3"/>
+									<listOptionValue builtIn="false" value="DEVICE_ANALOGIN=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PWMOUT=1"/>
+									<listOptionValue builtIn="false" value="ARM_MATH_CM4"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_object"/>
+								</option>
+								<option id="fr.ac6.managedbuild.gnu.cpp.compiler.option.misc.other.1618275183" name="Other flags" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.misc.other" useByScannerDiscovery="false" value="-fmessage-length=0 --specs=nano.specs  --specs=nosys.specs -Wvla -fno-builtin -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer" valueType="string"/>
+								<option id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.fdata.1835906681" name="Place the data in their own section (-fdata-sections)" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.fdata" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.cpp.compiler.option.warnings.extrawarn.288007274" name="Extra warnings (-Wextra)" superClass="gnu.cpp.compiler.option.warnings.extrawarn" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.1381356795" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s.863560872" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.2104019411" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.919933925" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.2140159912" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker">
+								<option id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.script.2032925952" name="Linker Script (-T)" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.script" value="${workspace_loc:/${ProjName}/lib/mbed/TARGET_NUCLEO_F303K8/TOOLCHAIN_GCC_ARM/STM32F303X8.ld}" valueType="string"/>
+								<option id="gnu.cpp.link.option.flags.8689739" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="--specs=nano.specs" valueType="string"/>
+								<option id="gnu.cpp.link.option.userobjs.905068232" name="Other objects" superClass="gnu.cpp.link.option.userobjs"/>
+								<option id="gnu.cpp.link.option.libs.1057304697" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
+								<option id="gnu.cpp.link.option.paths.11967225" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths"/>
+								<option id="gnu.cpp.link.option.other.344635397" name="Other options (-Xlinker [option])" superClass="gnu.cpp.link.option.other"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1550697714" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.2093258870" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.1919790695" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler">
+								<option id="gnu.both.asm.option.include.paths.1825836282" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TOOLCHAIN_GCC_ARM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/hal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/platform&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.175689979" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.432262926" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="lib|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="lib"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399.1924742401">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399.1924742401" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399.1924742401" name="Release" parent="fr.ac6.managedbuild.config.gnu.cross.exe.debug" postannouncebuildStep="Generating binary and Printing size information:" postbuildStep="arm-none-eabi-size &quot;${BuildArtifactFileName}&quot;">
+					<folderInfo id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399.1924742401." name="/" resourcePath="">
+						<toolChain id="fr.ac6.managedbuild.toolchain.gnu.cross.exe.debug.671660485" name="Ac6 STM32 MCU GCC" nonInternalBuilderId="fr.ac6.managedbuild.builder.gnu.cross" superClass="fr.ac6.managedbuild.toolchain.gnu.cross.exe.debug">
+							<option id="fr.ac6.managedbuild.option.gnu.cross.mcu.1083721955" name="Mcu" superClass="fr.ac6.managedbuild.option.gnu.cross.mcu" value="STM32F303K8Tx" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.board.917287281" name="Board" superClass="fr.ac6.managedbuild.option.gnu.cross.board" value="NUCLEO-F303K8" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.fpu.634812039" name="Floating point hardware" superClass="fr.ac6.managedbuild.option.gnu.cross.fpu" value="fr.ac6.managedbuild.option.gnu.cross.fpu.fpv4-sp-d16" valueType="enumerated"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.floatabi.1504620057" name="Floating-point ABI" superClass="fr.ac6.managedbuild.option.gnu.cross.floatabi" value="fr.ac6.managedbuild.option.gnu.cross.floatabi.hard" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.managedbuild.targetPlatform.gnu.cross.1585253274" isAbstract="false" osList="all" superClass="fr.ac6.managedbuild.targetPlatform.gnu.cross"/>
+							<builder autoBuildTarget="all" buildPath="${workspace_loc:/Nucleo_blink_led_F303}/Debug" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.1605410912" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" parallelBuildOn="false" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.820276394" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler">
+								<option id="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.169228459" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.c.optimization.level.more" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.482129971" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.343251267" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TOOLCHAIN_GCC_ARM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/hal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/platform&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1519361300" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="__MBED__=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_I2CSLAVE=1"/>
+									<listOptionValue builtIn="false" value="TARGET_LIKE_MBED"/>
+									<listOptionValue builtIn="false" value="DEVICE_RTC_LSI=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTINOUT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_RTOS_M4_M7"/>
+									<listOptionValue builtIn="false" value="DEVICE_RTC=1"/>
+									<listOptionValue builtIn="false" value="TARGET_STM32F303K8"/>
+									<listOptionValue builtIn="false" value="__CMSIS_RTOS"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_GCC"/>
+									<listOptionValue builtIn="false" value="DEVICE_STDIO_MESSAGES=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_CAN=1"/>
+									<listOptionValue builtIn="false" value="TARGET_CORTEX_M"/>
+									<listOptionValue builtIn="false" value="TARGET_LIKE_CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="DEVICE_ANALOGOUT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_M4"/>
+									<listOptionValue builtIn="false" value="TARGET_UVISOR_UNSUPPORTED"/>
+									<listOptionValue builtIn="false" value="DEVICE_SERIAL=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_INTERRUPTIN=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_I2C=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTOUT=1"/>
+									<listOptionValue builtIn="false" value="__CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="__MBED_CMSIS_RTOS_CM"/>
+									<listOptionValue builtIn="false" value="__FPU_PRESENT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_FF_ARDUINO"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTIN=1"/>
+									<listOptionValue builtIn="false" value="TARGET_RELEASE"/>
+									<listOptionValue builtIn="false" value="TARGET_STM"/>
+									<listOptionValue builtIn="false" value="MBED_BUILD_TIMESTAMP=1484828603.7"/>
+									<listOptionValue builtIn="false" value="TARGET_NUCLEO_F303K8"/>
+									<listOptionValue builtIn="false" value="DEVICE_SLEEP=1"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_GCC_ARM"/>
+									<listOptionValue builtIn="false" value="DEVICE_SPI=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_SPISLAVE=1"/>
+									<listOptionValue builtIn="false" value="TARGET_STM32F3"/>
+									<listOptionValue builtIn="false" value="DEVICE_ANALOGIN=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PWMOUT=1"/>
+									<listOptionValue builtIn="false" value="ARM_MATH_CM4"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_object"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.1302146614" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.c99" valueType="enumerated"/>
+								<option id="fr.ac6.managedbuid.gnu.c.compiler.option.misc.other.1060343795" name="Other flags" superClass="fr.ac6.managedbuid.gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-fmessage-length=0 --specs=nano.specs  --specs=nosys.specs -fno-builtin -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer" valueType="string"/>
+								<option id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata.434748754" name="Place the data in their own section (-fdata-sections)" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.optimization.flags.2134949496" name="Other optimization flags" superClass="gnu.c.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-s" valueType="string"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.763419972" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.1685526027" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1558532720" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.1193668756" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.cpp.optimization.level.more" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1586205590" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.2107067309" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TOOLCHAIN_GCC_ARM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/hal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/platform&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.dialect.std.1570212820" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++98" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1219268795" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__MBED__=1"/>
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="DEVICE_I2CSLAVE=1"/>
+									<listOptionValue builtIn="false" value="TARGET_LIKE_MBED"/>
+									<listOptionValue builtIn="false" value="DEVICE_RTC_LSI=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTINOUT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_RTOS_M4_M7"/>
+									<listOptionValue builtIn="false" value="DEVICE_RTC=1"/>
+									<listOptionValue builtIn="false" value="TARGET_STM32F303K8"/>
+									<listOptionValue builtIn="false" value="__CMSIS_RTOS"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_GCC"/>
+									<listOptionValue builtIn="false" value="DEVICE_STDIO_MESSAGES=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_CAN=1"/>
+									<listOptionValue builtIn="false" value="TARGET_CORTEX_M"/>
+									<listOptionValue builtIn="false" value="TARGET_LIKE_CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="DEVICE_ANALOGOUT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_M4"/>
+									<listOptionValue builtIn="false" value="TARGET_UVISOR_UNSUPPORTED"/>
+									<listOptionValue builtIn="false" value="DEVICE_SERIAL=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_INTERRUPTIN=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_I2C=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTOUT=1"/>
+									<listOptionValue builtIn="false" value="__CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="__MBED_CMSIS_RTOS_CM"/>
+									<listOptionValue builtIn="false" value="__FPU_PRESENT=1"/>
+									<listOptionValue builtIn="false" value="TARGET_FF_ARDUINO"/>
+									<listOptionValue builtIn="false" value="DEVICE_PORTIN=1"/>
+									<listOptionValue builtIn="false" value="TARGET_RELEASE"/>
+									<listOptionValue builtIn="false" value="TARGET_STM"/>
+									<listOptionValue builtIn="false" value="MBED_BUILD_TIMESTAMP=1484828603.7"/>
+									<listOptionValue builtIn="false" value="TARGET_NUCLEO_F303K8"/>
+									<listOptionValue builtIn="false" value="DEVICE_SLEEP=1"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_GCC_ARM"/>
+									<listOptionValue builtIn="false" value="DEVICE_SPI=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_SPISLAVE=1"/>
+									<listOptionValue builtIn="false" value="TARGET_STM32F3"/>
+									<listOptionValue builtIn="false" value="DEVICE_ANALOGIN=1"/>
+									<listOptionValue builtIn="false" value="DEVICE_PWMOUT=1"/>
+									<listOptionValue builtIn="false" value="ARM_MATH_CM4"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN_object"/>
+								</option>
+								<option id="fr.ac6.managedbuild.gnu.cpp.compiler.option.misc.other.1289220528" name="Other flags" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.misc.other" useByScannerDiscovery="false" value="-fmessage-length=0 --specs=nano.specs  --specs=nosys.specs -Wvla -fno-builtin -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer" valueType="string"/>
+								<option id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.fdata.1099841288" name="Place the data in their own section (-fdata-sections)" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.fdata" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.cpp.compiler.option.warnings.extrawarn.503174004" name="Extra warnings (-Wextra)" superClass="gnu.cpp.compiler.option.warnings.extrawarn" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="gnu.cpp.compiler.option.optimization.flags.479527035" name="Other optimization flags" superClass="gnu.cpp.compiler.option.optimization.flags" useByScannerDiscovery="false" value="-s" valueType="string"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.349018573" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s.1854553408" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.1469089945" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1224513753" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.1154958012" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker">
+								<option id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.script.901087404" name="Linker Script (-T)" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.script" value="${workspace_loc:/${ProjName}/lib/mbed/TARGET_NUCLEO_F303K8/TOOLCHAIN_GCC_ARM/STM32F303X8.ld}" valueType="string"/>
+								<option id="gnu.cpp.link.option.flags.1169935017" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="--specs=nano.specs" valueType="string"/>
+								<option id="gnu.cpp.link.option.userobjs.60697259" name="Other objects" superClass="gnu.cpp.link.option.userobjs"/>
+								<option id="gnu.cpp.link.option.libs.1996183153" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
+								<option id="gnu.cpp.link.option.paths.1849207576" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths"/>
+								<option id="gnu.cpp.link.option.other.2140072519" name="Other options (-Xlinker [option])" superClass="gnu.cpp.link.option.other"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1878703393" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.366429472" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.1791183680" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler">
+								<option id="gnu.both.asm.option.include.paths.396665850" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/TARGET_NUCLEO_F303K8/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TARGET_STM/TARGET_STM32F3/device&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/TARGET_NUCLEO_F303K8/TOOLCHAIN_GCC_ARM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/hal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/platform&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.944308725" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.441032514" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Helicoptere.fr.ac6.managedbuild.target.gnu.cross.exe.1650565295" name="Executable" projectType="fr.ac6.managedbuild.target.gnu.cross.exe"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/Helicoptere"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/Helicoptere"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.240119637;fr.ac6.managedbuild.config.gnu.cross.exe.debug.240119637.;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.579576711;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.314424804">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399;fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399.;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.421366436;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.1381356795">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.release.1763137056;fr.ac6.managedbuild.config.gnu.cross.exe.release.1763137056.;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1545462468;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.1327799740">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.240119637;fr.ac6.managedbuild.config.gnu.cross.exe.debug.240119637.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1636145828;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.56643728">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.release.1763137056;fr.ac6.managedbuild.config.gnu.cross.exe.release.1763137056.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.660349939;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1780788112">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399;fr.ac6.managedbuild.config.gnu.cross.exe.debug.558675432.529716399.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.886002357;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.637077495">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>
