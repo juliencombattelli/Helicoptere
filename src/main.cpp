@@ -52,7 +52,7 @@ int main()
 	mot1 = 1;
 	mot2 = 1;
 
-	Menu_init("Beautifull menu");
+	Menu_init("Beautiful menu");
 	Menu_add_item("Mot1 +", mot1p_handler);
 	Menu_add_item("Mot1 -", mot1m_handler);
 	Menu_add_item("Mot2 +", mot2p_handler);
