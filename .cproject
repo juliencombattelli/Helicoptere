@@ -39,6 +39,7 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/platform&quot;"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1405228458" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="MBED_STDIO_DEFAULT_BAUD=115200"/>
 									<listOptionValue builtIn="false" value="NDEBUG"/>
 									<listOptionValue builtIn="false" value="__MBED__=1"/>
 									<listOptionValue builtIn="false" value="DEVICE_I2CSLAVE=1"/>
@@ -105,6 +106,7 @@
 								</option>
 								<option id="gnu.cpp.compiler.option.dialect.std.1360658337" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++98" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.1835508827" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="MBED_STDIO_DEFAULT_BAUD=115200"/>
 									<listOptionValue builtIn="false" value="__MBED__=1"/>
 									<listOptionValue builtIn="false" value="NDEBUG"/>
 									<listOptionValue builtIn="false" value="DEVICE_I2CSLAVE=1"/>
@@ -163,7 +165,7 @@
 								<option id="gnu.cpp.link.option.flags.8689739" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="--specs=nano.specs" valueType="string"/>
 								<option id="gnu.cpp.link.option.userobjs.905068232" name="Other objects" superClass="gnu.cpp.link.option.userobjs"/>
 								<option id="gnu.cpp.link.option.libs.1057304697" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
-								<option id="gnu.cpp.link.option.paths.11967225" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths"/>
+								<option id="gnu.cpp.link.option.paths.11967225" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths"/>
 								<option id="gnu.cpp.link.option.other.344635397" name="Other options (-Xlinker [option])" superClass="gnu.cpp.link.option.other"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1550697714" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
