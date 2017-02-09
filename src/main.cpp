@@ -1,25 +1,15 @@
 #include "mbed.h"
 #include "Menu/Menu.h"
-
-/*
- * Tx1 PA9 Rx1 PA10
- * Tx2 PA2 Rx2 PA3
- * Mot1 PA8 Mot2 PA11
- * Pot1 PA7 Pot2 PB0
- * AnalogIn1 PA0 AnalogIn2 PA1
- * AnalogOut1 pA6 AnalogOut2 PA5
- * SDA PB7 SCL PB6
- * MOSI PB5 MISO PB4 SCLK PB3 CS PA4
- */
+#include "Config/Pin_config.h"
 
 DigitalOut myled(LED1);
-PwmOut mot1(PA_8);
-PwmOut mot2(PA_11);
-AnalogIn adc1(PA_0);
-AnalogIn adc2(PA_1);
-AnalogOut dac1(PA_6);
-AnalogOut dac2(PA_5);
-I2C i2c(PB_7,PB_6);
+PwmOut mot1(PIN_MOT_1);
+PwmOut mot2(PIN_MOT_2);
+AnalogIn adc1(PIN_ADC_1);
+AnalogIn adc2(PIN_ADC_2);
+AnalogOut dac1(PIN_DAC_1);
+AnalogOut dac2(PIN_DAC_2);
+I2C i2c(PIN_SDA,PIN_SCL);
 
 #define STEP (0.05f)
 
