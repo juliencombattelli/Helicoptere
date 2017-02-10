@@ -20,12 +20,12 @@ public:
 	void motorMainSetSpeed(float speed);
 	void motorMainIncreaseSpeed(float speed);
 	void motorMainDecreaseSpeed(float speed);
-	int  motorMainGetSpeed() {return 100 - (int(m_motorMain.read() * 100)); };
+	int  motorMainGetSpeed();
 
 	void motorTailSetSpeed(float speed);
 	void motorTailIncreaseSpeed(float speed);
 	void motorTailDecreaseSpeed(float speed);
-	int  motorTailGetSpeed() {return 100 - (int(m_motorTail.read() * 100)); };
+	int  motorTailGetSpeed();
 
 	void setAnalog1(float value);
 	void setAnalog2(float value);

@@ -32,6 +32,11 @@ void Helicopter::motorMainDecreaseSpeed(float speed)
 	m_motorMain = m_motorMain + speed;
 }
 
+int Helicopter::motorMainGetSpeed()
+{
+	return 100 - (int(m_motorMain.read() * 100.f));
+}
+
 void Helicopter::motorTailSetSpeed(float speed)
 {
 	m_motorTail = 1.0f - speed;
@@ -65,4 +70,9 @@ float Helicopter::getAnalog1()
 float Helicopter::getAnalog2()
 {
 	return m_adc2.read();
+}
+
+int Helicopter::motorTailGetSpeed()
+{
+	return 100 - (int(m_motorTail.read() * 100.f));
 }
