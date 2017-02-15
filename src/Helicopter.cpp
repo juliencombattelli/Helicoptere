@@ -47,4 +47,22 @@ void Helicopter::motorTailDecreaseSpeed(float speed)
 	m_motorTail = m_motorTail + speed;
 }
 
+void Helicopter::setAnalog1(float value)
+{
+	m_dac1.write(value);
+}
 
+void Helicopter::setAnalog2(float value)
+{
+	m_dac2.write(value);
+}
+
+float Helicopter::getAnalog1()
+{
+	return m_adc1.read();
+}
+
+float Helicopter::getAnalog2()
+{
+	return m_adc2.read();
+}

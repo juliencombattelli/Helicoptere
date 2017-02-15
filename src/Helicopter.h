@@ -27,6 +27,11 @@ public:
 	void motorTailDecreaseSpeed(float speed);
 	int  motorTailGetSpeed() {return 100 - (int(m_motorTail.read() * 100)); };
 
+	void setAnalog1(float value);
+	void setAnalog2(float value);
+	float getAnalog1();
+	float getAnalog2();
+
 private:
 
 	PwmOut m_motorMain;

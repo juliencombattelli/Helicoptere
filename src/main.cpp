@@ -39,6 +39,14 @@ int main()
 	Menu_add_item("Tail -", mot2m_handler);
 	Menu_add_item("Tail +", mot2p_handler);
 
+	helico.setAnalog1(1.f);
+	helico.setAnalog2(1.f);
+
+	while(1)
+	{
+		printf("%f -- %f\r\n", helico.getAnalog1(), helico.getAnalog2());
+	}
+
 	while(1)
 	{
 		puts("\r\n");
