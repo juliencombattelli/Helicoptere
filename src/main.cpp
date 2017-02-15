@@ -33,26 +33,33 @@ void mot2m_handler()
 
 int main()
 {
-	Menu_init("Beautiful menu");
-	Menu_add_item("Main -", mot1m_handler);
-	Menu_add_item("Main +", mot1p_handler);
-	Menu_add_item("Tail -", mot2m_handler);
-	Menu_add_item("Tail +", mot2p_handler);
-
-	helico.setAnalog1(1.f);
-	helico.setAnalog2(1.f);
+	printf("hello Word\r\n");
 
 	while(1)
 	{
-		printf("%f -- %f\r\n", helico.getAnalog1(), helico.getAnalog2());
-	}
-
-	while(1)
-	{
-		puts("\r\n");
-		Menu_print();
-		char userInput = 0;
-		userInput = getchar();
-		Menu_choose(userInput-'0');
+		char cmd = 0;
+		cmd = getchar();
+		switch(cmd)
+		{
+		case 0x01:
+		{
+			char value = getchar();
+			helico.motorMainSetSpeed(((float)value)/100.f);
+			break;
+		}
+		case 0x02:
+		{
+			char value = getchar();
+			helico.motorTailSetSpeed(((float)value)/100.f);
+			break;
+		}
+		case 0xFF:
+		{
+			helico.motorMainSetSpeed(0);
+			helico.motorTailSetSpeed(0);
+			break;
+		}
+		};
+		printf("M : %d | T : %d \r\n", helico.motorMainGetSpeed(), helico.motorTailGetSpeed());
 	}
 }

@@ -10,8 +10,8 @@
 Helicopter::Helicopter() :
 	m_motorMain(PIN_MOT_1), m_motorTail(PIN_MOT_2),
 	m_adc1(PIN_ADC_1), m_adc2(PIN_ADC_2),
-	m_dac1(PIN_DAC_1), m_dac2(PIN_DAC_2),
-	m_i2c(PIN_SDA,PIN_SCL)
+	m_dac1(PIN_DAC_1), m_dac2(PIN_DAC_2)//,
+	//m_i2c(PIN_SDA,PIN_SCL)
 {
 	m_motorMain = 1.0f;
 	m_motorTail = 1.0f;

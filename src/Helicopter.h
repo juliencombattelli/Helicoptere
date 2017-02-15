@@ -41,7 +41,7 @@ private:
 	AnalogIn m_adc2;
 	AnalogOut m_dac1;
 	AnalogOut m_dac2;
-	I2C m_i2c;
+	//I2C m_i2c;
 };
 
 #endif /* HELICOPTER_H_ */
