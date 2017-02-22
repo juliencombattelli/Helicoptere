@@ -25,33 +25,36 @@ void Helicopter::run()
 {
 	while(1)
 	{
-		char cmd = 0;
-		cmd = getchar();
-		switch(cmd)
-		{
-		case 0x01:
-			motorMainSetSpeed(((float)getchar())/100.f);
-			break;
-		case 0x02:
-			motorTailSetSpeed(((float)getchar())/100.f);
-			break;
-		case FrameType_Stop:
-			stop();
-			break;
-		case FrameType_Initialization:
-			handleInitializationFrame();
-			break;
-		case FrameType_SignalRotorMain:
-			handleSignalRotorMainFrame();
-			break;
-		case FrameType_SignalRotorTail:
-			handleSignalRotorTailFrame();
-			break;
-		case FrameType_Start:
-			m_ticker.attach_us(callback(this, &Helicopter::process), m_Te);
-			while(1);
-			break;
-		};
+		//if(m_remotePC.readable())
+		//{
+			char cmd = 0;
+			cmd = getchar();
+			switch(cmd)
+			{
+			case 0x01:
+				motorMainSetSpeed(((float)getchar())/100.f);
+				break;
+			case 0x02:
+				motorTailSetSpeed(((float)getchar())/100.f);
+				break;
+			case FrameType_Stop:
+				stop();
+				break;
+			case FrameType_Initialization:
+				handleInitializationFrame();
+				break;
+			case FrameType_SignalRotorMain:
+				handleSignalRotorMainFrame();
+				break;
+			case FrameType_SignalRotorTail:
+				handleSignalRotorTailFrame();
+				break;
+			case FrameType_Start:
+				m_ticker.attach_us(callback(this, &Helicopter::process), m_Te);
+				while(1);
+				break;
+			};
+		//}
 	}
 }
 

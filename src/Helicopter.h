@@ -54,6 +54,7 @@ private:
 	AnalogOut m_dac1;
 	AnalogOut m_dac2;
 	//I2C m_i2c;
+	//Serial m_remotePC;
 
 	uint16_t m_Te;
 	uint32_t m_Tsim;
