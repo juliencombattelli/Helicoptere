@@ -10,12 +10,17 @@
 
 #include "mbed.h"
 #include "Config/Pin_config.h"
+#include "CommunicationProtocol.h"
+#include "Waveform.h"
 
 class Helicopter
 {
 public:
 
 	Helicopter();
+
+	void run();
+	void stop();
 
 	void motorMainSetSpeed(float speed);
 	void motorMainIncreaseSpeed(float speed);
@@ -34,6 +39,13 @@ public:
 
 private:
 
+	void handleInitializationFrame();
+	void handleSignalRotorMainFrame();
+	void handleSignalRotorTailFrame();
+	void handleStartFrame();
+
+	void process();
+
 	PwmOut m_motorMain;
 	PwmOut m_motorTail;
 
@@ -42,6 +54,15 @@ private:
 	AnalogOut m_dac1;
 	AnalogOut m_dac2;
 	//I2C m_i2c;
+
+	uint16_t m_Te;
+	uint32_t m_Tsim;
+	uint32_t m_currentTime;
+
+	Waveform* m_waveformMain;
+	Waveform* m_waveformTail;
+
+	Ticker m_ticker;
 };
 
 #endif /* HELICOPTER_H_ */

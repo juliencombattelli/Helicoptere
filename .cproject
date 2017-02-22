@@ -81,7 +81,7 @@
 									<listOptionValue builtIn="false" value="ARM_MATH_CM4"/>
 									<listOptionValue builtIn="false" value="TOOLCHAIN_object"/>
 								</option>
-								<option id="gnu.c.compiler.option.dialect.std.1761027" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.c99" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.std.1761027" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.c11" valueType="enumerated"/>
 								<option id="fr.ac6.managedbuid.gnu.c.compiler.option.misc.other.1681387613" name="Other flags" superClass="fr.ac6.managedbuid.gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-fmessage-length=0 --specs=nano.specs  --specs=nosys.specs -fno-builtin -funsigned-char -MMD -fno-delete-null-pointer-checks -fomit-frame-pointer" valueType="string"/>
 								<option id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata.821521169" name="Place the data in their own section (-fdata-sections)" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.637077495" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
@@ -104,7 +104,7 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/hal&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/lib/mbed/platform&quot;"/>
 								</option>
-								<option id="gnu.cpp.compiler.option.dialect.std.1360658337" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++98" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.dialect.std.1360658337" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.1835508827" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="MBED_STDIO_DEFAULT_BAUD=115200"/>
 									<listOptionValue builtIn="false" value="__MBED__=1"/>

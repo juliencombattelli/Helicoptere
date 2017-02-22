@@ -52,9 +52,9 @@ typedef enum {
     UART_3 = (int)USART3_BASE // defined for compilation issue. UART3 is not present on STM32F303K8
 } UARTName;
 
-#define STDIO_UART_TX  PA_9
-#define STDIO_UART_RX  PA_10
-#define STDIO_UART     UART_1
+#define STDIO_UART_TX  PA_9//USBTX
+#define STDIO_UART_RX  PA_10//USBRX
+#define STDIO_UART     UART_1//UART_2
 
 typedef enum {
     SPI_1 = (int)SPI1_BASE
