@@ -55,6 +55,10 @@ private:
 	AnalogOut m_dac2;
 	//I2C m_i2c;
 	//Serial m_remotePC;
+	/* TODO:
+	 * 	add m_remotePC initialization in constructor
+	 * 	replace standard I/O redirection with the original one (on USB and not Bluetooth)
+	 */
 
 	uint16_t m_Te;
 	uint32_t m_Tsim;
